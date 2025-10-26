@@ -1,0 +1,131 @@
+/* src/pages/Tickets.css */
+.tickets-page {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.tickets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.header-content {
+  flex: 1;
+}
+
+.tickets-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.tickets-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+}
+
+.create-ticket-btn {
+  background: linear-gradient(45deg, var(--primary-color), #5a6fd8);
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.create-ticket-btn:hover {
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+}
+
+.btn-icon {
+  font-size: 1.25rem;
+}
+
+.tickets-content {
+  margin-top: 2rem;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.tickets-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 1rem;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.loading-spinner.large {
+  width: 60px;
+  height: 60px;
+  border-width: 4px;
+}
+
+.tickets-loading p {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .tickets-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .tickets-header {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  
+  .tickets-title {
+    font-size: 2rem;
+  }
+  
+  .tickets-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .create-ticket-btn {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .tickets-title {
+    font-size: 1.75rem;
+  }
+  
+  .tickets-grid {
+    grid-template-columns: 1fr;
+  }
+}
