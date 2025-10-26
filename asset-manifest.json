@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HNG-stage-2--react/static/css/main.e701b1e6.css",
+    "main.js": "/HNG-stage-2--react/static/js/main.fad8043a.js",
+    "index.html": "/HNG-stage-2--react/index.html",
+    "main.e701b1e6.css.map": "/HNG-stage-2--react/static/css/main.e701b1e6.css.map",
+    "main.fad8043a.js.map": "/HNG-stage-2--react/static/js/main.fad8043a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e701b1e6.css",
+    "static/js/main.fad8043a.js"
+  ]
+}
