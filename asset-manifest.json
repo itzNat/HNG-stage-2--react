@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/HNG-stage-2--react/static/css/main.e701b1e6.css",
-    "main.js": "/HNG-stage-2--react/static/js/main.fad8043a.js",
+    "main.js": "/HNG-stage-2--react/static/js/main.fc6ffa4f.js",
     "index.html": "/HNG-stage-2--react/index.html",
     "main.e701b1e6.css.map": "/HNG-stage-2--react/static/css/main.e701b1e6.css.map",
-    "main.fad8043a.js.map": "/HNG-stage-2--react/static/js/main.fad8043a.js.map"
+    "main.fc6ffa4f.js.map": "/HNG-stage-2--react/static/js/main.fc6ffa4f.js.map"
   },
   "entrypoints": [
     "static/css/main.e701b1e6.css",
-    "static/js/main.fad8043a.js"
+    "static/js/main.fc6ffa4f.js"
   ]
 }
