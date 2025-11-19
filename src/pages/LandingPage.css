@@ -259,7 +259,6 @@ Glass Card
   font-size: 0.8rem;
 }
 
-/* Wavy Background */
 .wavy-background {
   position: absolute;
   bottom: 0;
@@ -268,7 +267,6 @@ Glass Card
   z-index: 1;
 }
 
-/* Features Section */
 .features-section {
   padding: 6rem 5%;
   background: white;
@@ -320,7 +318,6 @@ Glass Card
   line-height: 1.6;
 }
 
-/* Footer */
 .landing-footer {
   background: #2d3436;
   color: white;
@@ -328,7 +325,6 @@ Glass Card
   padding: 2rem 5%;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
