@@ -1,4 +1,3 @@
-// src/pages/LandingPage.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -7,7 +6,6 @@ import './LandingPage.css';
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      {/* Animated background elements */}
       <div className="floating-elements">
         <motion.div 
           className="floating-circle circle-1"
@@ -49,7 +47,6 @@ const LandingPage = () => {
         />
       </div>
 
-      {/* Navigation */}
       <nav className="landing-nav">
         <motion.div 
           className="nav-logo"
@@ -71,7 +68,6 @@ const LandingPage = () => {
         </motion.div>
       </nav>
 
-      {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
           <motion.div 
@@ -125,7 +121,6 @@ const LandingPage = () => {
             </motion.div>
           </motion.div>
 
-          {/* Hero Visual */}
           <motion.div 
             className="hero-visual"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -169,7 +164,6 @@ const LandingPage = () => {
           </motion.div>
         </div>
 
-        {/* Wavy Background */}
         <div className="wavy-background">
           <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
             <path 
@@ -181,7 +175,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="features-section">
         <div className="container">
           <motion.h2 
@@ -212,7 +205,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="landing-footer">
         <div className="container">
           <p>&copy; 2024 TicketFlow. All rights reserved.</p>
