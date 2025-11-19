@@ -1,4 +1,3 @@
-// src/pages/Dashboard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -43,7 +42,7 @@ const Dashboard = () => {
     }
   ];
 
-  const recentActivities = activities.slice(0, 4); // Show only 4 most recent activities
+  const recentActivities = activities.slice(0, 4); 
 
   const formatTimeAgo = (dateString) => {
     const date = new Date(dateString);
@@ -80,7 +79,6 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
-      {/* Header */}
       <motion.div 
         className="dashboard-header"
         initial={{ opacity: 0, y: -20 }}
@@ -106,7 +104,6 @@ const Dashboard = () => {
         </motion.div>
       </motion.div>
 
-      {/* Statistics Grid */}
       <motion.div 
         className="stats-grid"
         variants={containerVariants}
@@ -156,7 +153,6 @@ const Dashboard = () => {
       </motion.div>
 
       <div className="dashboard-content">
-        {/* Recent Activity */}
         <motion.div 
           className="activity-section"
           initial={{ opacity: 0, x: -50 }}
@@ -199,7 +195,6 @@ const Dashboard = () => {
           </div>
         </motion.div>
 
-        {/* Quick Actions */}
         <motion.div 
           className="quick-actions-section"
           initial={{ opacity: 0, x: 50 }}
