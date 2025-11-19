@@ -1,9 +1,8 @@
-// src/App.js
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { TicketsProvider } from './context/TicketsContext';
-import { ToastProvider } from './context/ToastContext'; // Add this
+import { ToastProvider } from './context/ToastContext';
 import Layout from './components/Layout/Layout';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
@@ -15,7 +14,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <ToastProvider> {/* Wrap with ToastProvider */}
+    <ToastProvider>
       <AuthProvider>
         <TicketsProvider>
           <Router>
